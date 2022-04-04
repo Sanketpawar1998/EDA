@@ -101,31 +101,3 @@ onehotencoding=OneHotEncoder()
 final_df['Airline'].get_dummies()
 pd.get_dummies(final_df,columns=["Airline","Source","Destination","Additional_Info"] ,drop_first = True)
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
